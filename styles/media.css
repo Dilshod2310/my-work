@@ -1,0 +1,51 @@
+@media(prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #151437;
+    --primary-text-color: #ffffff;
+  }
+
+  .logo::before {
+    content: url(../images/logo-dark.png);
+  }
+
+  .footer__link,
+  .footer__link:hover {
+    color: var(--secondary-link-color);
+  }
+}
+
+@media(max-width:1400px) {
+  .shape_1 {
+    top: -300px;
+  }
+  .shape_2 {
+    top: -150px;
+  }
+}
+
+@media(max-width:1200px) {
+  .shape_1 {
+    top: -150px;
+  }
+  .shape_2 {
+    top: 0;
+  }
+}
+
+@media(max-width:992px) {
+  .shape {
+    display: none;
+  }
+}
+
+@media(max-width:768px) {
+  .rectangle {
+    display: none;
+  }
+}
+
+@media(max-width:576px) {
+  .works__text {
+    font-size: 14px;
+  }
+}
